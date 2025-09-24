@@ -1,3 +1,4 @@
--- 1.sql: All songs in the database.
-SELECT name
-FROM songs;
+-- 1.sql: Titles of all movies released in 2008
+SELECT title
+FROM movies
+WHERE year = 2008;
